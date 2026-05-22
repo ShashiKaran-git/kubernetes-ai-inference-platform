@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import pipeline
+import torch
 
 app = FastAPI()
 
@@ -21,10 +22,11 @@ def generate_text(request: PromptRequest):
 
     result = generator(
         request.prompt,
-        max_length=50,
-        num_return_sequences=1
+        max_new_tokens=40,
+        temperature=0.7,
+        do_sample=True,
+        truncation=True
     )
-
     return {
         "response": result[0]["generated_text"]
     }
