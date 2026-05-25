@@ -20,6 +20,8 @@ This project serves a lightweight LLM (distilgpt2) through a REST API and deploy
 
 # 🏗 Architecture
 
+```text
+
 Client
    ↓
 FastAPI API
@@ -31,11 +33,12 @@ distilgpt2 Model
 Docker Container
    ↓
 Kubernetes Pod
-
+```
 ---
 
 # 📂 Project Structure
 
+```text
 ai-inference-platform/
 │
 ├── app/
@@ -52,7 +55,7 @@ ai-inference-platform/
 ├── helm/
 ├── .github/workflows/
 └── README.md
-
+```
 ---
 
 # 🚀 Setup Guide
@@ -85,6 +88,8 @@ Open:
 
 http://127.0.0.1:8000/docs
 
+---
+
 # 🐳 Docker Setup
 
 # 5️⃣ Build Docker Image
@@ -100,6 +105,8 @@ docker run -p 8000:8000 ai-inference-api
 Open:
 
 http://localhost:8000/docs
+
+---
 
 # ☸ Kubernetes Deployment
 
@@ -204,6 +211,7 @@ Docker Desktop + WSL2 memory tuning impacts Kubernetes workloads
 # 👨‍💻 Author
 
 Shashi Karan
+
 LinkedIn:
 
 https://www.linkedin.com/in/shashikaran
