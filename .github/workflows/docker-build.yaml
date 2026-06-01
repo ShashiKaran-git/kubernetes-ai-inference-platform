@@ -27,3 +27,4 @@ jobs:
         context: ./app
         push: true
         tags: shashikarandev/ai-inference-api:latest
+              shashikarandev/ai-inference-api:${{ github.sha }}
