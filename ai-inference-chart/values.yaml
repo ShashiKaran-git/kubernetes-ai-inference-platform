@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: ai-inference-api
+  repository: shashikarandev/ai-inference-api
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: LoadBalancer
