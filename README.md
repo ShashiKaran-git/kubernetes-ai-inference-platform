@@ -192,7 +192,7 @@ Prometheus and Grafana were deployed to the cluster to observe real-time pod and
 
 HPA is configured to scale the deployment between **1 and 3 replicas** based on CPU utilization (target: 5%).
 
-Verified live — CPU spiked to **67%**, triggering HPA to scale replicas from 1 → 3 automatically:
+Verified live - CPU spiked to **67%**, triggering HPA to scale replicas from 1 → 3 automatically:
 
 ```
 NAME               REFERENCE                        TARGETS     MINPODS   MAXPODS   REPLICAS
@@ -229,31 +229,31 @@ Real issues encountered during the build — and how they were fixed.
 
 ## 🎓 Key Learnings
 
-- **Terraform** — Writing modular IaC to manage VPC, EKS, and IAM from scratch
-- **EKS** — Understanding managed node groups, access entries, and kubeconfig setup
-- **Helm** — Templating Kubernetes manifests and managing releases with `upgrade --install`
-- **ArgoCD** — Connecting a Git repository to a live cluster and configuring self-healing sync
-- **GitOps** — The value of declarative config: changing a value in Git is the deployment
-- **HPA** — Watching CPU-triggered autoscaling happen live in real time
-- **Monitoring** — Deploying Prometheus + Grafana and reading real pod memory and CPU metrics
-- **Debugging** — Reading pod events (`kubectl describe pod`) and logs to trace real errors
+- **Terraform** - Writing modular IaC to manage VPC, EKS, and IAM from scratch
+- **EKS** - Understanding managed node groups, access entries, and kubeconfig setup
+- **Helm** - Templating Kubernetes manifests and managing releases with `upgrade --install`
+- **ArgoCD** - Connecting a Git repository to a live cluster and configuring self-healing sync
+- **GitOps** - The value of declarative config: changing a value in Git is the deployment
+- **HPA** - Watching CPU-triggered autoscaling happen live in real time
+- **Monitoring** - Deploying Prometheus + Grafana and reading real pod memory and CPU metrics
+- **Debugging** - Reading pod events (`kubectl describe pod`) and logs to trace real errors
 
 ---
 
 ## 📈 Future Improvements
 
-- [ ] **AWS ALB Ingress Controller** — Replace LoadBalancer service with ALB for path-based routing
-- [ ] **Centralized Logging** — EFK stack for log aggregation across pods
-- [ ] **Terraform Remote State** — S3 + DynamoDB backend for safe team collaboration
-- [ ] **TLS / HTTPS** — Automate certificates with cert-manager and Let's Encrypt
-- [ ] **ArgoCD Rollouts** — Blue/green or canary deployments for zero-downtime releases
+- [ ] **AWS ALB Ingress Controller** - Replace LoadBalancer service with ALB for path-based routing
+- [ ] **Centralized Logging** - EFK stack for log aggregation across pods
+- [ ] **Terraform Remote State** - S3 + DynamoDB backend for safe team collaboration
+- [ ] **TLS / HTTPS** - Automate certificates with cert-manager and Let's Encrypt
+- [ ] **ArgoCD Rollouts** - Blue/green or canary deployments for zero-downtime releases
 
 ---
 
 ## 👤 Author
 
 **Shashi Karthikeya**
-Aspiring DevOps Engineer — learning by building real projects.
+Aspiring DevOps Engineer - learning by building real projects.
 
 [![GitHub](https://img.shields.io/badge/GitHub-ShashiKaran--git-181717?style=flat-square&logo=github)](https://github.com/ShashiKaran-git)
 
