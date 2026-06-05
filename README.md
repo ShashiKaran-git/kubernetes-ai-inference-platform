@@ -66,8 +66,8 @@ GitHub Repository
 ## 📸 Screenshots
 
 
-| ArgoCD Sync | EKS Nodes | Running Pods |
-|:-----------:|:---------:|:------------:|
+| ArgoCD Sync | EKS Nodes | Running Pods | Github actions |
+|:-----------:|:---------:|:------------:|:--------------:|
 | ![ArgoCD](docs/screenshots/argocd-sync.png) | ![Nodes](docs/screenshots/eks-nodes.png) | ![Pods](docs/screenshots/pods-running.png) | ![Github actions](docs/screenshots/github-actions-success.png)
 
 
