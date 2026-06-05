@@ -211,7 +211,6 @@ ai-inference-hpa   Deployment/ai-inference-api      67%/5%      1         3     
 4. ArgoCD detected the repository change automatically
 5. Deployment synchronized without running kubectl apply
 6. Verified the new replica count using kubectl get pods
-```
 
 ---
 
@@ -263,3 +262,5 @@ Aspiring DevOps Engineer — learning by building real projects.
 <div align="center">
   <sub>Built with curiosity, debugged with patience.</sub>
 </div>
+
+---
