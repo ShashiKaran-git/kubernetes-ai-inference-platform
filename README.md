@@ -16,7 +16,7 @@
 
 ## 📌 Overview
 
-This project provisions a cloud-native infrastructure on **AWS EKS** and deploys a **FastAPI** application using a fully automated GitOps pipeline. Infrastructure is managed with **Terraform**, deployments are packaged with **Helm**, and **ArgoCD** keeps the cluster in sync with the Git repository — no manual `kubectl apply` required.
+This project provisions a cloud-native infrastructure on **AWS EKS** and deploys a **FastAPI** application using a fully automated GitOps pipeline. Infrastructure is managed with **Terraform**, deployments are packaged with **Helm**, and **ArgoCD** keeps the cluster in sync with the Git repository - no manual `kubectl apply` required.
 
 GitOps was validated by modifying the Helm chart configuration, pushing changes to GitHub, and observing ArgoCD automatically synchronize the deployment to the EKS cluster.
 
