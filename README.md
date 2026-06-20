@@ -41,7 +41,7 @@ GitHub Repository
     │         │
     │         │  docker build + push
     │         ▼
-    │      Docker Hub
+    │      Docker hub
     │
     └──► ArgoCD (GitOps Controller)
               │
