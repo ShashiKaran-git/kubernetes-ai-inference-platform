@@ -118,7 +118,7 @@ kubernetes-ai-inference-platform/
 │   │   ├── service.yaml
 │   │   ├── ingress.yaml
 │   │   └── hpa.yaml
-│   ├── Chart.yaml
+│   ├── chart.yaml
 │   └── values.yaml
 │
 ├── .github/workflows/
@@ -144,7 +144,7 @@ terraform plan
 terraform apply
 ```
 
-### 2 · Connect to the Cluster
+### 2 · Connect to the cluster
 
 ```bash
 aws eks update-kubeconfig --region ap-south-1 --name ai-inference-cluster
@@ -159,7 +159,7 @@ kubectl get pods
 kubectl get svc
 ```
 
-### 4 · Install ArgoCD & Enable GitOps
+### 4 · Install ArgoCD & Enable Gitops
 
 ```bash
 kubectl create namespace argocd
