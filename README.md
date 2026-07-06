@@ -188,7 +188,7 @@ Prometheus and Grafana were deployed to the cluster to observe real-time pod and
 
 ---
 
-## ⚡ Horizontal Pod Autoscaling
+## ⚡ Horizontal pod Autoscaling
 
 HPA is configured to scale the deployment between **1 and 3 replicas** based on CPU utilization (target: 5%).
 
@@ -203,7 +203,7 @@ ai-inference-hpa   Deployment/ai-inference-api      67%/5%      1         3     
 
 ## 🔄 GitOps Workflow
 
-### GitOps Validation
+### GitOps validation
 
 1. Updated replicaCount from 1 to 2 in values.yaml
 2. Committed and pushed the change to GitHub
@@ -214,11 +214,11 @@ ai-inference-hpa   Deployment/ai-inference-api      67%/5%      1         3     
 
 ---
 
-## 🚨 Challenges & Solutions
+## 🚨 Challenges & solutions
 
 Real issues encountered during the build — and how they were fixed.
 
-| # | Problem | Root Cause | Fix |
+| # | Problem | Root cause | Fix |
 |---|---------|-----------|-----|
 | 1 | `You must be logged in to the server` | IAM user not mapped to EKS cluster | Configured EKS Access Entries and associated the `AmazonEKSClusterAdminPolicy` to the IAM user. |
 | 2 | `ImagePullBackOff` on pods | Wrong Docker image path in `values.yaml` | Corrected `image.repository` to match the exact Docker Hub image name |
