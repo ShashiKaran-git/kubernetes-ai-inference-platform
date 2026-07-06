@@ -151,7 +151,7 @@ aws eks update-kubeconfig --region ap-south-1 --name ai-inference-cluster
 kubectl get nodes
 ```
 
-### 3 · Deploy the Application via Helm
+### 3 · Deploy the application via Helm
 
 ```bash
 helm upgrade --install ai-inference ./ai-inference-chart
