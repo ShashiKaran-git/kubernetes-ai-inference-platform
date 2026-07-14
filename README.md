@@ -2,7 +2,7 @@
 
 # ☸️ Kubernetes AI Inference Platform
 
-**A hands-on DevOps project deploying a FastAPI application on AWS EKS using a complete GitOps workflow.**
+**A hands-on DevOps project deploying a FastAPI application on AWS EKS using a complete gitOps workflow.**
 
 ![Build](https://img.shields.io/github/actions/workflow/status/ShashiKaran-git/kubernetes-ai-inference-platform/docker-build.yaml?style=flat-square&label=CI%2FCD&color=22c55e)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
@@ -91,7 +91,7 @@ GitHub Repository
 | **CI/CD** | GitHub Actions | Auto-build and push Docker images on push |
 | **Autoscaling** | Kubernetes HPA | Scale pods based on CPU utilization |
 | **Monitoring** | Prometheus, Grafana | Scrape and visualize pod and cluster metrics |
-| **Application** | Python, FastAPI | Lightweight API server |
+| **Application** | python, FastAPI | lightweight API server |
 
 ---
 
@@ -188,7 +188,7 @@ Prometheus and Grafana were deployed to the cluster to observe real-time pod and
 
 ---
 
-## ⚡ Horizontal pod Autoscaling
+## ⚡ Horizontal pod autoscaling
 
 HPA is configured to scale the deployment between **1 and 3 replicas** based on CPU utilization (target: 5%).
 
