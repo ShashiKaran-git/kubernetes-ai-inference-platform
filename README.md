@@ -47,10 +47,10 @@ GitHub Repository
               │
               │  detects Helm chart changes
               ▼
-           Helm Chart
+           Helm chart
               │
               ▼
-        Amazon EKS Cluster
+        Amazon EKS cluster
               │
         ┌─────┴─────┐
         │           │
