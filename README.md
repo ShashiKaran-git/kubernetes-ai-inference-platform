@@ -24,7 +24,7 @@ Built as a hands on project to learn how modern DevOps tooling works end-to-end 
 Environment:
 - AWS Region: ap-south-1
 - EKS Version: 1.33
-- Node Group: 2 × t3.small
+- Node group: 2 × t3.small
 
 ---
 
@@ -35,7 +35,7 @@ Developer
     │
     │  git push
     ▼
-GitHub Repository
+GitHub repository
     │
     ├──► GitHub Actions
     │         │
