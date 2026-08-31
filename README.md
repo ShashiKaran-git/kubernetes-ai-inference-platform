@@ -19,11 +19,11 @@
 
 This project provisions a cloud native infrastructure on **AWS EKS** and deploys a **FastAPI** application using a fully automated GitOps pipeline. Infrastructure is managed with **Terraform**, deployments are packaged with **Helm**, and **ArgoCD** keeps the cluster in sync with the Git repository - no manual `kubectl apply` required.
 
-Built as a hands on project to learn how modern DevOps tooling works end-to-end — from `git push` to a running pod on Kubernetes.
+Built as a hands on project to learn how modern devops tooling works end-to-end — from `git push` to a running pod on Kubernetes.
 
 Environment:
-- AWS Region: ap-south-1
-- EKS Version: 1.33
+- AWS region: ap-south-1
+- EKS version: 1.33
 - Node group: 2 × t3.small
 
 ---
